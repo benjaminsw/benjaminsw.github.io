@@ -22,8 +22,14 @@ main:
         url: /Multivariate-Regression/
       - title: Polynomial Regression
         url: /Polynomial-Regression/
-      - title: Simple Linear Regression
-        url: /Simple-Linear-Regression/
+      - title: Ridge Regression w/ Gradient Descent
+        url: /Ridge-Regression-Gradient-Descent/
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
 
   - title: "Time Series"
     url: /techstream/
