@@ -4,8 +4,6 @@ header:
   image: "/images/digital-transition2.jpg"
 ---
 
-# Hill Climbing
-
 ### Random-mutation hill-climbing (RMHC)
 
 1. Choose a string at random. Call this string best-evaluated.
