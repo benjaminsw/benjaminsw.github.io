@@ -4,7 +4,7 @@ header:
   image: "/images/digital-transition2.jpg"
 ---
 
-# Simple Linear Regression
+### Simple Linear Regression
 
 In this notebook I use data on house sales in King County to predict house prices using simple (one input) linear regression.
 * I will use pandas descripttive to compute summary statistics
@@ -13,7 +13,7 @@ In this notebook I use data on house sales in King County to predict house price
 * I will also try turning the regression around to predict the input given the output
 * Finally, I will compare two different models for predicting house prices
 
-# Import library
+### Import library
 
 
 ```python
@@ -24,7 +24,7 @@ import seaborn as sns
 sns.set(color_codes=True)
 ```
 
-# Load house sales data
+### Load house sales data
 
 Dataset is from house sales in King County, the region where the city of Seattle, WA is located.
 
@@ -38,7 +38,7 @@ coltype_lst =  [str, str, float, float, float, float, int, str, int, int, int, i
 col_type_dict = dict(zip(colname_lst, coltype_lst))
 ```
 
-# Split data into training data and test data
+### Split data into training data and test data
 
 From the entire dataset above, we spit data into training and test set using numpy.
 
@@ -379,7 +379,7 @@ test.head(5)
 
 
 
-# Now let's look at descriptive statistics for this data set
+### Now let's look at descriptive statistics for this data set
 
 
 ```python
@@ -617,7 +617,7 @@ sns.distplot(train["price"]);
 ```
 
 
-![png](output_15_0.png)
+![png](/images/Simple-Linear-Regression/output_15_0.png)
 
 
 
@@ -633,7 +633,7 @@ sns.distplot(train["bedrooms"])
 
 
 
-![png](output_16_1.png)
+![png](/images/Simple-Linear-Regression/output_16_1.png)
 
 
 
@@ -649,7 +649,7 @@ sns.distplot(train["bathrooms"])
 
 
 
-![png](output_17_1.png)
+![png](/images/Simple-Linear-Regression/output_17_1.png)
 
 
 
@@ -665,7 +665,7 @@ sns.distplot(train["sqft_living"])
 
 
 
-![png](output_18_1.png)
+![png](/images/Simple-Linear-Regression/output_18_1.png)
 
 
 # Build a generic simple linear regression function
@@ -735,7 +735,7 @@ print "Slope: " + str(sqft_slope)
     Slope: 277.970465792
 
 
-# Predicting Values
+### Predicting Values
 
 Now that we have the model parameters: intercept & slope we can make predictions. The following function will return the predicted output given the input_feature, slope and intercept:
 
@@ -759,7 +759,7 @@ print "The estimated price for a house with %d squarefeet is $%.2f" % (my_house_
     The estimated price for a house with 2650 squarefeet is $697243.31
 
 
-# Residual Sum of Squares
+### Residual Sum of Squares
 
 Now that we have a model and can make predictions let's evaluate our model using Residual Sum of Squares (RSS). Recall that RSS is the sum of the squares of the residuals and the residuals is just a fancy word for the difference between the predicted output and the true output.
 
@@ -800,7 +800,7 @@ print 'The RSS of predicting Prices based on Square Feet is : ' + str(rss_prices
     The RSS of predicting Prices based on Square Feet is : 1.15464936338e+15
 
 
-# Predict the squarefeet given price
+### Predict the squarefeet given price
 
 What if we want to predict the squarefoot given the price? Since we have an equation y = a + b\*x we can solve the function for x. So that if we have the intercept (a) and the slope (b) and the price (y) we can solve for the estimated squarefeet (x).
 
@@ -826,7 +826,7 @@ print "The estimated squarefeet for a house worth $%.2f is %d" % (my_house_price
     The estimated squarefeet for a house worth $800000.00 is 3019
 
 
-# New Model: estimate prices from bedrooms
+### New Model: estimate prices from bedrooms
 
 We have made one model for predicting house prices using squarefeet, but there are many other features in the sales dataframe.
 Now we will make a simple linear regression function to estimate the regression parameters from predicting Prices based on number of bedrooms.
@@ -845,7 +845,7 @@ Now we will make a simple linear regression function to estimate the regression 
 
 
 
-# Test our Linear Regression Algorithm
+### Test our Linear Regression Algorithm
 
 Now we have two models for predicting the price of a house. How do we know which one is better? Calculate the RSS on the TEST data (remember this data wasn't involved in learning the model). Let's compute the RSS from predicting prices using bedrooms and from predicting prices using squarefeet.
 
