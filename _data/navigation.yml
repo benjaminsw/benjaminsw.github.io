@@ -1,9 +1,28 @@
 # main links
 main:
 
-  - title: ""
+  - title: "Heuristic Search"
+    sublinks:
+      - title: By Tag
+        url: /tags/
+      - title: By Category
+        url: /categories/
+      - title: By Year
+        url: /year-archive/
+        
+  - title: "Regression"
+    sublinks:
+      - title: By Tag
+        url: /tags/
+      - title: By Category
+        url: /categories/
+      - title: By Year
+        url: /year-archive/
+
+  - title: "Time Series"
     url: /techstream/
-  - title: "Travel Stream"
+
+  - title: "Deep Learning"
     sublinks:
       - title: By Tag
         url: /tags/
@@ -11,14 +30,7 @@ main:
         url: /categories/
       - title: By Year
         url: /year-archive/
-  - title: Archive
-    sublinks:
-      - title: By Tag
-        url: /tags/
-      - title: By Category
-        url: /categories/
-      - title: By Year
-        url: /year-archive/
+
   - title: "About"
     url: /about/
 
