@@ -4,7 +4,7 @@ header:
   image: "/images/digital-transition2.jpg"
 ---
 
-# Ridge Regression
+### Ridge Regression
 
 In this notebook, we will run ridge regression multiple times with different L2 penalties to see which one produces the best fit. We will revisit the example of polynomial regression as a means to see the effect of L2 regularization.
 
@@ -18,7 +18,7 @@ In this notebook, we will run ridge regression multiple times with different L2 
 
 We will continue to use the House data from previous notebooks.  (In the next programming assignment for this module, you will implement your own ridge regression learning algorithm using gradient descent.)
 
-## import library
+### import library
 
 
 ```python
@@ -33,7 +33,7 @@ from sklearn.linear_model import Ridge
 import matplotlib.pyplot as plt
 ```
 
-## read data in
+### read data in
 
 Now, we will read data that we will use in this notebook. This data is house sales in King County, the region where the city of Seattle, WA is located.
 
@@ -372,7 +372,7 @@ data.head()
 
 
 
-## polynomial regression function
+### polynomial regression function
 
 Now we will create a polynomial function for later use. This function will create the polynomial of the terget feature up to the given degree.
 
@@ -441,7 +441,7 @@ fit15_deg_poly(data, l2_small_penalty)
 ![png](/images/Ridge-Regression/output_16_1.png)
 
 
-## observe overfitting
+### observe overfitting
 
 The polynomial fit of degree 15 changed wildly whenever the data changed. In particular, when we split the data and fit the model of degree 15, the result came out to be very different for each subset. The model had a *high variance*. This is where ridge regression kicks in because it reduces such variance. But first, we will reproduce such cases.
 
@@ -529,7 +529,7 @@ fit15_deg_poly(set_4, l2_small_penalty)
 
 The four curves should differ from one another a lot, as should the coefficients you learned.
 
-## ridge regression comes to rescue
+### ridge regression comes to rescue
 
 Generally, whenever we see weights change so much in response to change in data, we believe the variance of our estimate to be large. Ridge regression aims to address this issue by penalising "large" weights. Note that weights of `model15` looked quite small, but they are not that small because 'sqft_living' input is in the order of thousands.
 
@@ -626,7 +626,7 @@ fit15_deg_poly(set_4, l2_small_penalty)
 ![png](/images/Ridge-Regression/output_34_1.png)
 
 
-## selecting an L2 penalty via cross-validation
+### selecting an L2 penalty via cross-validation
 
 As seen, with randon L2 parameter, we cannot see obvious improvement in our dataset. The L2 penalty is a "magic" parameter we need to select. We could use the validation set approach but that approach has a major disadvantage: it leaves fewer observations available for training. **Cross-validation** seeks to overcome this issue by using all of the training set in a smart way.
 
