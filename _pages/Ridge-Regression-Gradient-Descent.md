@@ -585,4 +585,4 @@ print abs(predicted_price_house1_regularisation - test_output[0])
 
 We can see that for particular house1, regression with no regularisation perform better because it resuts in less error.
 
-_ last edited 31/10/2016 _
+*last edited: 31/10/2016*
