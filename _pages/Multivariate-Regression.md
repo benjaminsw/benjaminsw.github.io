@@ -450,7 +450,7 @@ plt.show()
 ![png](/images/Multivariate-Regression/output_14_0.png)
 
 
-# Convert to Numpy Array
+### Convert to Numpy Array
 
 Now we will write a function that will accept a dataframe, a list of feature names (e.g. ['sqft_living', 'bedrooms']) and an target feature e.g. ('price') and will return two things:
 * A numpy matrix whose columns are the desired features plus a constant column (this is how we create an 'intercept')
@@ -486,7 +486,7 @@ print example_output[0] # and the corresponding output
     221900.0
 
 
-# Predicting output given regression weights
+### Predicting output given regression weights
 
 Suppose we had the weights [1.0, 1.0] and the features [1.0, 1180.0] and we wanted to compute the predicted output 1.0\*1.0 + 1.0\*1180.0 = 1181.0 this is the dot product between these two arrays. If they're numpy arrays we can use np.dot() to compute this:
 
@@ -525,7 +525,7 @@ print test_predictions[1] # should be 2571.0
     771.0
 
 
-# Computing the Derivative
+### Computing the Derivative
 
 We are now going to compute the derivative of the regression cost function. The cost function is the sum over the data points of the squared difference between an observed output and a predicted output.
 
@@ -576,7 +576,7 @@ print -np.sum(example_output)*2 # should be the same as derivative
     -18686397554.0
 
 
-# Gradient Descent
+### Gradient Descent
 
 Now we will write a function that performs a gradient descent. The basic premise is simple. Given a starting point we update the current weights by moving in the negative gradient direction. Note that the gradient is the direction of *increase* and therefore the negative gradient is the direction of *decrease* and we're trying to *minimise* a cost/error function.
 
@@ -618,7 +618,7 @@ A few things to note before running the gradient descent. Since the gradient is 
 
 For similar reasons the step size will be much smaller than we might expect but this is because the gradient has such large values.
 
-# Running the Gradient Descent as Simple Regression
+### Running the Gradient Descent as Simple Regression
 
 First let's split the data into training and test data.
 
@@ -626,7 +626,7 @@ Although the gradient descent is designed for multiple regression since the cons
 
 
 ```python
-# let's test out the gradient descent
+### let's test out the gradient descent
 simple_features = ['sqft_living']
 my_output = 'price'
 (simple_feature_matrix, output) = get_numpy_data(train, simple_features, my_output)
@@ -677,7 +677,7 @@ compute_rss(test_output, predictions)
 
 
 
-# Running a multiple regression
+### Running a multiple regression
 
 Now we will use more than one actual feature. Use the following code to produce the weights for a second model with the following parameters:
 
