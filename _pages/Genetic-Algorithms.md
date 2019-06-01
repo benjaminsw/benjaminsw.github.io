@@ -248,7 +248,7 @@ plt.show
 
 
 
-![png](/images/Genetic-Algorithmsoutput_12_1.png)
+![png](/images/Genetic-Algorithms/output_12_1.png)
 
 
 
