@@ -10,3 +10,35 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+  docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+      - title: "Structure"
+      - title: "Installation"
+      - title: "Upgrading"
+
+  - title: Customization
+    children:
+      - title: "Configuration"
+      - title: "Navigation"
+      - title: "UI Text"
+      - title: "Authors"
+      - title: "Layouts"
+
+  - title: Content
+    children:
+      - title: "Working with Posts"
+      - title: "Working with Pages"
+      - title: "Working with Collections"
+      - title: "Helpers"
+      - title: "Utility Classes"
+
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+      - title: "JavaScript"
+
+sidebar:
+  nav: "docs"
