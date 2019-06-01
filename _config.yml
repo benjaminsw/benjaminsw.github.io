@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "benwii"
 title_separator          : "-"
 name                     : "Benjamin Wiriyapong"
-description              : "An amazing website."
+description              : "Data Science Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -84,10 +84,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Benjamin Wiriyapong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Data Science Portfolio"
+  location         : "Korat TH"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -253,3 +253,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
