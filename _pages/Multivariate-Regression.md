@@ -4,7 +4,7 @@ header:
   image: "/images/digital-transition2.jpg"
 ---
 
-# Multiple Regression (Gradient Descent)
+### Multiple Regression (Gradient Descent)
 
 In this notebook we will apply multivariate to estimate multiple regression weights via gradient descent.
 
@@ -15,7 +15,7 @@ In this notebook we will apply multivariate to estimate multiple regression weig
 * Write gradient descent function to compute the regression weights given an initial weight vector, step size and tolerance.
 * Use the gradient descent function to estimate regression weights for multiple features
 
-# Import library
+### Import library
 
 
 ```python
@@ -32,7 +32,7 @@ from mpl_toolkits.basemap import Basemap
 from math import sqrt
 ```
 
-# Load in house sales data
+### Load in house sales data
 
 Dataset is from house sales in King County, the region where the city of Seattle, WA is located.
 
@@ -44,7 +44,7 @@ coltype_lst =  [str, str, float, float, float, float, int, str, int, int, int, i
 col_type_dict = dict(zip(colname_lst, coltype_lst))
 ```
 
-# Split data into training data and test data
+### Split data into training data and test data
 
 From the entire dataset above, we spit data into training and test set using numpy.
 
@@ -385,7 +385,7 @@ test.head(5)
 
 
 
-# Data visualisation
+### Data visualisation
 
 In ths section, we will look at some of the data visually in order to get the gist of data
 
