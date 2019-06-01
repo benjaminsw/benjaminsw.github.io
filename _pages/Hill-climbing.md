@@ -1,5 +1,5 @@
 ---
-#permalink: /Hill-climbing/
+permalink: /Hill-climbing/
 header:
   image: "/images/digital-transition2.jpg"
 ---
