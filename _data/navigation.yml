@@ -24,8 +24,8 @@ main:
         url: /Polynomial-Regression/
       - title: Ridge Regression w/ Gradient Descent
         url: /Ridge-Regression-Gradient-Descent/
-      - title:
-        url: //
+      - title: Ridge Regression
+        url: /Ridge-Regression/
       - title:
         url: //
       - title:
