@@ -7,13 +7,13 @@ main:
   - title: ""
     url: /techstream/
   - title: "Travel Stream"
-        sublinks:
-          - title: By Tag
-            url: /tags/
-          - title: By Category
-            url: /categories/
-          - title: By Year
-            url: /year-archive/
+    sublinks:
+      - title: By Tag
+        url: /tags/
+      - title: By Category
+        url: /categories/
+      - title: By Year
+        url: /year-archive/
   - title: Archive
     sublinks:
       - title: By Tag
