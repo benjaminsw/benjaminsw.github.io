@@ -11,11 +11,14 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-  docs:
-  - title: Getting Started
+sidebar-sample:
+  - title: "Parent Page A"
     children:
-      - title: "Quick-Start Guide"
-        url: /_pages/quick-start-guide/
-
-sidebar:
-  nav: "docs"
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+      - title: "Child Page A3"
+        url: /
+      - title: "Child Page A4"
+        url: /
