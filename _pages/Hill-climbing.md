@@ -4,6 +4,8 @@ header:
   image: "/images/digital-transition2.jpg"
 ---
 
+# Hill Climbing
+
 ### Random-mutation hill-climbing (RMHC)
 
 1. Choose a string at random. Call this string best-evaluated.
@@ -4123,3 +4125,7 @@ while max_eval >0:
     current total value =  392
     current best value =  692
     total weight =  474
+
+
+
+*last editted: 01/06/19*
