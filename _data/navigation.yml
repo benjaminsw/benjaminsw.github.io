@@ -5,8 +5,8 @@ main:
     sublinks:
       - title: Hill Climbling
         url: /Hill-climbing/
-      - title: By Category
-        url: /categories/
+      - title: Iterated Local Search
+        url: /Iterated-Local-Search/
       - title: By Year
         url: /year-archive/
 
