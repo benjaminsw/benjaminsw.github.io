@@ -16,8 +16,8 @@ main:
     sublinks:
       - title: Intro to Regression PhillyCrime
         url: /Introduction-to-Regression-PhillyCrime/
-      - title: By Category
-        url: /categories/
+      - title: Simple Linear Regression
+        url: /Simple-Linear-Regression/
       - title: By Year
         url: /year-archive/
 
