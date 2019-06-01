@@ -4,7 +4,7 @@ header:
   image: "/images/digital-transition2.jpg"
 ---
 
-# Iterated Local Search
+### Iterated Local Search
 
 This algorithm has resemblances with algorithm 1. However, instead
 of starting each iteration from a completely random solution, the starting solution is a
