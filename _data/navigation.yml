@@ -20,8 +20,8 @@ main:
         url: /Simple-Linear-Regression/
       - title: Multivariate Regression
         url: /Multivariate-Regression/
-      - title: Intro to Regression PhillyCrime
-        url: /Introduction-to-Regression-PhillyCrime/
+      - title: Polynomial Regression
+        url: /Polynomial-Regression/
       - title: Simple Linear Regression
         url: /Simple-Linear-Regression/
 
