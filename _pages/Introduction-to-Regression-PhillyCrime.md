@@ -6,7 +6,7 @@ header:
 
 ### Introduction to Regression
 
-# import library
+### import library
 
 
 ```python
@@ -22,7 +22,7 @@ plt.rcParams["figure.figsize"] = [12,9]
     :0: FutureWarning: IPython widgets are experimental and may change in the future.
 
 
-# Load some house value vs. crime rate data
+### Load some house value vs. crime rate data
 
 Dataset is from Philadelphia, PA and includes average house sales price in a number of neighborhoods.  The attributes of each neighborhood we have include the crime rate ('CrimeRate'), miles from Center City ('MilesPhila'), town name ('Name'), and county name ('County').
 
@@ -160,7 +160,7 @@ sales.head(10)
 
 
 
-# Exploring the data
+### Exploring the data
 
 The house price in a town is correlated with the crime rate of that town. Low crime towns tend to be associated with higher house prices and vice versa.
 
@@ -204,7 +204,7 @@ regr.fit(sales_X_crimerate, sales_y_houseprice)
 
 
 
-# Let's see what our fit looks like
+### Let's see what our fit looks like
 
 
 ```python
@@ -289,7 +289,7 @@ sns.lmplot('CrimeRate', 'HousePrice', data=sales_noCC)
 ![png](/images/Introduction-to-Regression-PhillyCrime/output_22_1.png)
 
 
-# Compare coefficients for full-data fit versus no-Center-City fit
+### Compare coefficients for full-data fit versus no-Center-City fit
 
 Visually, the fit seems different, but let's quantify this by examining the estimated coefficients of our original fit and that of the modified dataset with Center City removed.
 
@@ -371,7 +371,7 @@ Center City is said to be a "high leverage" point because it is at an extreme x 
 ### Influential observations:  
 An influential observation is one where the removal of the point significantly changes the fit.  As discussed above, high leverage points are good candidates for being influential observations, but need not be.  Other observations that are *not* leverage points can also be influential observations (e.g., strongly outlying in y even if x is a typical value).
 
-# Remove high-value outlier neighborhoods and redo analysis
+### Remove high-value outlier neighborhoods and redo analysis
 
 Based on the discussion above, a question is whether the outlying high-value towns are strongly influencing the fit.  Let's remove them and see what happens.
 
