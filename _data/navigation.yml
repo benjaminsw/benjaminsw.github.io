@@ -26,8 +26,8 @@ main:
         url: /Ridge-Regression-Gradient-Descent/
       - title: Ridge Regression
         url: /Ridge-Regression/
-      - title:
-        url: //
+      - title: LASSO
+        url: /LASSO/
       - title:
         url: //
 
