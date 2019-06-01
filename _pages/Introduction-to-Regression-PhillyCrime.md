@@ -180,7 +180,7 @@ sns.lmplot('CrimeRate', 'HousePrice', data=sales, fit_reg=False)
 ![png](/images/Introduction-to-Regression-PhillyCrime/output_8_1.png)
 
 
-# Fit the regression model using crime as the feature
+### Fit the regression model using crime as the feature
 
 
 ```python
@@ -224,7 +224,7 @@ sns.lmplot('CrimeRate', 'HousePrice', data=sales)
 
 Above: dots are original data, blue line is the fit from the simple regression.
 
-# Remove Center City and redo the analysis
+### Remove Center City and redo the analysis
 
 Center City is the one observation with an extremely high crime rate, yet house prices are not very low.  This point does not follow the trend of the rest of the data very well.  A question is how much including Center City is influencing our fit on the other datapoints.  Let's remove this datapoint and see what happens.
 
