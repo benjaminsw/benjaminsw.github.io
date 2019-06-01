@@ -9,7 +9,7 @@ main:
         url: /Iterated-Local-Search/
       - title: Multiple Restarts Hill-Climbing
         url: /Multiple-Restarts-Hill-climbing/
-      - title: Genetic-Algorithms
+      - title: Genetic Algorithms
         url: /Genetic-Algorithms/
 
   - title: "Regression"
