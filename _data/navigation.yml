@@ -14,7 +14,7 @@ main:
 
   - title: "Regression"
     sublinks:
-      - title: Intro to Regression: PhillyCrime
+      - title: Intro to Regression PhillyCrime
         url: /Introduction-to-Regression-PhillyCrime/
       - title: By Category
         url: /categories/
