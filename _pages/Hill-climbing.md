@@ -1,11 +1,10 @@
 ---
-title: "Hill Climbling"
-permalink: /Hill-climbing/
+#permalink: /Hill-climbing/
 header:
   image: "/images/digital-transition2.jpg"
 ---
 
-# Hill Clibing
+# Hill Climbing
 
 ### Random-mutation hill-climbing (RMHC)
 
