@@ -607,7 +607,7 @@ train.describe()
 
 
 
-# Data visualisation
+### Data visualisation
 
 In addition to descriptive statistics, data visualisation also helps to understand the gist of data. Therefore we will spend a bit of time looking at some of the variables, we interested.
 
@@ -668,7 +668,7 @@ sns.distplot(train["sqft_living"])
 ![png](/images/Simple-Linear-Regression/output_18_1.png)
 
 
-# Build a generic simple linear regression function
+### Build a generic simple linear regression function
 
 This section we will create generic simple linear regression function. This function will take two parameters.
 * one parameter is for input variable
