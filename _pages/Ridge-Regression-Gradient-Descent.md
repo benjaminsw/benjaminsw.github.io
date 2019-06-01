@@ -4,7 +4,7 @@ header:
   image: "/images/digital-transition2.jpg"
 ---
 
-# Ridge Regression Implementation with Gradient Descent
+### Ridge Regression Implementation with Gradient Descent
 
 In this notebook, we will implement ridge regression via gradient descent.
 
@@ -14,7 +14,7 @@ In this notebook, we will implement ridge regression via gradient descent.
 * We will write gradient descent function to compute the regression weights given an initial weight vector, step size, tolerance, and L2 penalty
 
 
-## import library
+### import library
 
 First of all, let's import lirary that we will use in this notebook.
 
@@ -31,7 +31,7 @@ from sklearn.linear_model import Ridge
 import matplotlib.pyplot as plt
 ```
 
-## read house sales data in
+### read house sales data in
 
 Dataset is from house sales in King County, the region where the city of Seattle, WA is located.
 
@@ -203,7 +203,7 @@ df.head()
 
 
 
-## useful functions for later use
+### useful functions for later use
 
 Now we will write a function to convert our dataframe to numpy array.
 
@@ -235,7 +235,7 @@ def predict_output(feature_matrix, weights):
     return(predictions)
 ```
 
-## computing the derivative
+### computing the derivative
 
 We are now going to move to computing the derivative of the regression cost function. First of all, the cost function is the sum over the data points of the squared difference between an observed output and a predicted output, plus the L2 penalty term.
 ```
@@ -302,7 +302,7 @@ print np.sum(errors)*2.
     -22446749330.0
 
 
-## gradient descent
+### gradient descent
 
 Now we will write a function that performs a gradient descent. The basic premise is simple. Given a starting point we update the current weights by moving in the negative gradient direction. Recall that the gradient is the direction of *increase* and therefore the negative gradient is the direction of *decrease* and we're trying to *minimize* a cost function.
 
@@ -333,7 +333,7 @@ def ridge_regression_gradient_descent(feature_matrix, output, initial_weights, s
     return weights
 ```
 
-## visualising effect of L2 penalty
+### visualising effect of L2 penalty
 
 The L2 penalty gets its name because it causes weights to have small L2 norms than otherwise. Let's see how large weights get penalized. Let us consider a simple model with 1 feature:
 
@@ -464,7 +464,7 @@ print "RSS weights learned with high regularization: $%.6f" % (rss_weights_regul
     RSS weights learned with high regularization: $723302146993537.375000
 
 
-## running a multiple regression with L2 penalty
+### running a multiple regression with L2 penalty
 
 Let us now consider a model with 2 features: `['sqft_living', 'sqft_living15']`.
 
