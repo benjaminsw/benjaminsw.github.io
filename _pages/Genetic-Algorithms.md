@@ -16,7 +16,7 @@ GA(*Fitness, Fitness_theshold, p, r, m*)
 >*r: The function of population to be replaced by Crossover at each step*<br>
 >*m: The mutation rate.* <br>
 
-+ *Initailise population: P* $\leftarrow$ *p* hypothesises at random
++ *Initailise population: P $\leftarrow$ p hypothesises at random *
 + *Evaluate:* For each h in P, compute *Fitness(h)*
 + While *[*$\underset{h}{\text{max}}$ *Fitness(h)] < Fitness_theshold* do
 
