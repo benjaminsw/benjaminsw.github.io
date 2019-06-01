@@ -7,8 +7,8 @@ main:
         url: /Hill-climbing/
       - title: Iterated Local Search
         url: /Iterated-Local-Search/
-      - title: By Year
-        url: /year-archive/
+      - title: Multiple Restarts Hill-Climbing
+        url: /Multiple-Restarts-Hill-climbing/
 
   - title: "Regression"
     sublinks:
