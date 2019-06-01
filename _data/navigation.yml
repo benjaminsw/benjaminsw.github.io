@@ -3,13 +3,13 @@ main:
 
   - title: "Heuristic Search"
     sublinks:
-      - title: By Tag
-        url: /tags/
+      - title: Hill Climbling
+        url: /Hill-climbing/
       - title: By Category
         url: /categories/
       - title: By Year
         url: /year-archive/
-        
+
   - title: "Regression"
     sublinks:
       - title: By Tag
