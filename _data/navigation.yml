@@ -30,7 +30,7 @@ main:
         url: /LASSO/
       - title: Feature Selection w/ LASSO
         url: /Feature-Selection-with-LASSO/
-      - title: Text-Classification
+      - title: Text Classification
         url: /Text-Classification/
 
   - title: "Time Series"
