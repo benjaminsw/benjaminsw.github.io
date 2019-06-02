@@ -210,6 +210,7 @@ The initialisation for a deeper L-layer neural network is more complicated becau
 
 </table>
 
+
 Remember that when we compute $W X + b$ in python, it carries out broadcasting. For example, if:
 
 $$ W = \begin{bmatrix}
