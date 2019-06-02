@@ -86,28 +86,6 @@ print ('I have m = %d training examples!' % (m))
     The shape of Y is: (1, 400)
     I have m = 400 training examples!
 
-
-**Expected Output**:
-
-<table style="width:20%">
-
-  <tr>
-    <td>**shape of X**</td>
-    <td> (2, 400) </td>
-  </tr>
-
-  <tr>
-    <td>**shape of Y**</td>
-    <td>(1, 400) </td>
-  </tr>
-
-    <tr>
-    <td>**m**</td>
-    <td> 400 </td>
-  </tr>
-
-</table>
-
 ### 3 - Simple Logistic Regression
 
 Before building a full neural network, let's first see how logistic regression performs on this problem. We can use sklearn's built-in functions to do that. Let's run the code below to train a logistic regression classifier on the dataset.
