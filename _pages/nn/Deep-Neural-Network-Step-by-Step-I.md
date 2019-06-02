@@ -5,7 +5,7 @@ header:
 ---
 <h2 id="top"></h2>
 
-# Building Deep Neural Network: Step by Step I
+### Building Deep Neural Network: Step by Step I
 
 We have previously trained a 2-layer Neural Network (with a single hidden layer). In this notebook, we will build a deep neural network, with as many layers as we want!
 
@@ -28,7 +28,7 @@ We have previously trained a 2-layer Neural Network (with a single hidden layer)
 
 Let's get started!
 
-## 1 - Packages
+### 1 - Packages
 
 Let's first import all the packages that I will use in the notebook.
 - [numpy](www.numpy.org) is the main package for scientific computing with Python.
@@ -60,7 +60,7 @@ np.random.seed(1)
       %reload_ext autoreload
 
 
-## 2 - Outline of this Notebook
+### 2 - Outline of this Notebook
 
 To build our neural network, I will be implementing several "helper functions". These helper functions will be used in the next notebook to build a two-layer neural network and an L-layer neural network. Here is an outline of the helper functions, I will:
 
@@ -84,7 +84,7 @@ To build our neural network, I will be implementing several "helper functions". 
 
 **Note:** for every forward function, there is a corresponding backward function. That is why at every step of my forward module I will be storing some values in a cache. The cached values are useful for computing gradients. In the backpropagation module you will then use the cache to calculate the gradients.
 
-## 3 - Initialisation
+### 3 - Initialisation
 
 I will write two helper functions that will initialise the parameters for our model. The first function will be used to initialise parameters for a two layer model. The second one will generalise this initialisation process to $L$ layers.
 
@@ -301,7 +301,7 @@ print("b2 = " + str(parameters["b2"]))
      [ 0.]]
 
 
-## 4 - Forward propagation module
+### 4 - Forward propagation module
 
 ### 4.1 - Linear Forward
 Now that we have initialised our parameters, we will do the forward propagation module. We will start by implementing some basic functions that we will use later when implementing the model.
@@ -496,7 +496,7 @@ print("Length of caches list = " + str(len(caches)))
 
 Yay! We now have a full forward propagation that takes the input X and outputs a row vector $A^{[L]}$ containing our predictions. It also records all intermediate values in "caches". Using $A^{[L]}$, we can compute the cost of our predictions.
 
-## 5 - Cost function
+### 5 - Cost function
 
 Now we will implement forward and backward propagation. We need to compute the cost, because we want to check if our model is actually learning.
 
@@ -540,7 +540,7 @@ print("cost = " + str(compute_cost(AL, Y)))
     cost = 0.414931599615
 
 
-## 6 - Backward propagation module
+### 6 - Backward propagation module
 
 Just like with forward propagation, I will implement helper functions for backpropagation and recall that back propagation is used to calculate the gradient of the loss function with respect to the parameters.
 
@@ -861,7 +861,7 @@ print ("b2 = "+ str(parameters["b2"]))
 
 
 
-## 7 - Conclusion
+### 7 - Conclusion
 
 Now we have implemented all the functions required for building a deep neural network!
 
@@ -872,4 +872,6 @@ In the next Notebook we will put all these together to build two models:
 
 We will in fact use these models to classify cat vs non-cat images!
 
-*last editted: 31/05/19*
+*last edited: 31/05/19*
+
+<a href="#top">Go to top</a>
