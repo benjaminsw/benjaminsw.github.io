@@ -4,7 +4,7 @@ header:
   image: "/images/digital-transition2.jpg"
 ---
 <h2 id="top"></h2>
-# Logistic Regression with a Neural Network
+### Logistic Regression with a Neural Network
 
 This notebook will build a logistic regression classifier to recognize  cats. This notebook will step through how to do this with a Neural Network.
 
@@ -18,7 +18,7 @@ This notebook will build a logistic regression classifier to recognize  cats. Th
     - Using an optimization algorithm (gradient descent)
 - Gather all three functions above into a main model function, in the right order.
 
-## 1 - Packages ##
+### 1 - Packages ##
 
 First, let's run the cell below to import all the packages that you will need during this assignment.
 - [numpy](www.numpy.org) is the fundamental package for scientific computing with Python.
@@ -39,7 +39,7 @@ from lr_utils import load_dataset
 %matplotlib inline
 ```
 
-## 2 - Overview of the Problem set ##
+### 2 - Overview of the Problem set ##
 
 **Problem Statement**: In this notebook, I'll use a dataset ("data.h5") containing:
 - A training set of m_train images labeled as cat (y=1) or non-cat (y=0)
@@ -158,7 +158,7 @@ test_set_x = test_set_x_flatten/255.
 - To reshape the datasets such that each example is now a vector of size (num_px \* num_px \* 3, 1)
 - To "standardize" the data
 
-## 3 - General Architecture of the learning algorithm ##
+### 3 - General Architecture of the learning algorithm ##
 
 It's time to design a simple algorithm to distinguish cat images from non-cat images.
 
@@ -182,7 +182,7 @@ $$ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{6}$$
 - Use the learned parameters to make predictions (on the test set)
 - Analyse the results and conclude
 
-## 4 - Building the parts of the algorithm ##
+### 4 - Building the parts of the algorithm ##
 
 The main steps for building a Neural Network are:
 1. Define the model structure (such as number of input features)
@@ -489,7 +489,7 @@ I have implemented functions that:
     - Updating the parameters using gradient descent
 - Use the learned (w,b) to predict the labels for a given set of examples
 
-## 5 - Merge all functions into a model ##
+### 5 - Merge all functions into a model ##
 
 We will now put everytghing that we have implemented and see how the overall model is structured by putting together all the building blocks (functions implemented in the previous parts) together, in the right order.
 
@@ -645,7 +645,7 @@ plt.show()
 **Interpretation**:
 We can see the cost decreasing. It shows that the parameters are being learned. However, we can see that we could train the model even more on the training set. Try to increase the number of iterations in the cell above and rerun the cells. You might see that the training set accuracy goes up, but the test set accuracy goes down. This is called overfitting.
 
-## 6 - Further analysis
+### 6 - Further analysis
 
 
 #### Choice of learning rate ####
@@ -748,7 +748,7 @@ plt.show()
     - If your model overfits, use other techniques to reduce overfitting.
 
 
-## 7 - Prediction step ##
+### 7 - Prediction step ##
 
 Now we can use our image and see the output of our model. To do that:
 1. Add your image to this Jupyter Notebook's directory, in the "images" folder
