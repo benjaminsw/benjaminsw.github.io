@@ -4,42 +4,42 @@ main:
   - title: "Heuristic Search"
     sublinks:
       - title: Hill Climbling
-        url: /Hill-climbing/
+        url: /search/Hill-climbing/
       - title: Iterated Local Search
-        url: /Iterated-Local-Search/
+        url: /search/Iterated-Local-Search/
       - title: Multiple Restarts Hill-Climbing
-        url: /Multiple-Restarts-Hill-climbing/
+        url: /search/Multiple-Restarts-Hill-climbing/
       - title: Genetic Algorithms
-        url: /Genetic-Algorithms/
+        url: /search/Genetic-Algorithms/
 
   - title: "Regression"
     sublinks:
       - title: Intro to Regression PhillyCrime
-        url: /Introduction-to-Regression-PhillyCrime/
+        url: /regression/Introduction-to-Regression-PhillyCrime/
       - title: Simple Linear Regression
-        url: /Simple-Linear-Regression/
+        url: /regression/Simple-Linear-Regression/
       - title: Multivariate Regression
-        url: /Multivariate-Regression/
+        url: /regression/Multivariate-Regression/
       - title: Polynomial Regression
-        url: /Polynomial-Regression/
+        url: /regression/Polynomial-Regression/
       - title: Ridge Regression w/ Gradient Descent
-        url: /Ridge-Regression-Gradient-Descent/
+        url: /regression/Ridge-Regression-Gradient-Descent/
       - title: Ridge Regression
-        url: /Ridge-Regression/
+        url: /regression/Ridge-Regression/
       - title: LASSO
-        url: /LASSO/
+        url: /regression/LASSO/
       - title: Feature Selection w/ LASSO
-        url: /Feature-Selection-with-LASSO/
+        url: /regression/Feature-Selection-with-LASSO/
       - title: Text Classification
-        url: /Text-Classification/
+        url: /regression/Text-Classification/
 
   - title: "Time Series"
-    url: /Time-Series/
+    url: /timeseries/Time-Series/
 
   - title: "Deep Learning"
     sublinks:
       - title: Basic Numpy
-        url: /Basic-Numpy/
+        url: /nn/Basic-Numpy/
       - title:
         url: //
       - title:
