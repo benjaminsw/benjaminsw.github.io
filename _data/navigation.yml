@@ -34,7 +34,7 @@ main:
         url: /Text-Classification/
 
   - title: "Time Series"
-    url: /techstream/
+    url: /Time-Series/
 
   - title: "Deep Learning"
     sublinks:
