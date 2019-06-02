@@ -1,5 +1,5 @@
 ---
-permalink: /Basic-Numpy/
+permalink: /nn/Basic-Numpy/
 header:
   image: "/images/digital-transition2.jpg"
 ---

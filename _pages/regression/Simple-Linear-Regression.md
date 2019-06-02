@@ -1,5 +1,5 @@
 ---
-permalink: /Simple-Linear-Regression/
+permalink: /regression/Simple-Linear-Regression/
 header:
   image: "/images/digital-transition2.jpg"
 ---

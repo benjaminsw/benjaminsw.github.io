@@ -1,5 +1,5 @@
 ---
-permalink: /Introduction-to-Regression-PhillyCrime/
+permalink: /regression/Introduction-to-Regression-PhillyCrime/
 header:
   image: "/images/digital-transition2.jpg"
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /Feature-Selection-with-LASSO/
+permalink: /regression/Feature-Selection-with-LASSO/
 header:
   image: "/images/digital-transition2.jpg"
 ---

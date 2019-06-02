@@ -1,5 +1,5 @@
 ---
-permalink: /Multivariate-Regression/
+permalink: /regression/Multivariate-Regression/
 header:
   image: "/images/digital-transition2.jpg"
 ---

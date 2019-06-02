@@ -1,5 +1,5 @@
 ---
-permalink: /Time-Series/
+permalink: /timeseries/Time-Series/
 header:
   image: "/images/digital-transition2.jpg"
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /Genetic-Algorithms/
+permalink: /search/Genetic-Algorithms/
 header:
   image: "/images/digital-transition2.jpg"
 ---

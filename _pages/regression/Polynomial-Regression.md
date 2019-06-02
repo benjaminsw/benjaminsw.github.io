@@ -1,5 +1,5 @@
 ---
-permalink: /Polynomial-Regression/
+permalink: /regression/Polynomial-Regression/
 header:
   image: "/images/digital-transition2.jpg"
 ---

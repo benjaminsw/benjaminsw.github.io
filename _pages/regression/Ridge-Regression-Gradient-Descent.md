@@ -1,5 +1,5 @@
 ---
-permalink: /Ridge-Regression-Gradient-Descent/
+permalink: /regression/Ridge-Regression-Gradient-Descent/
 header:
   image: "/images/digital-transition2.jpg"
 ---

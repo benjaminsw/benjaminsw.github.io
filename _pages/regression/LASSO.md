@@ -1,5 +1,5 @@
 ---
-permalink: /LASSO/
+permalink: /regression/LASSO/
 header:
   image: "/images/digital-transition2.jpg"
 ---

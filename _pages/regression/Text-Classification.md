@@ -1,5 +1,5 @@
 ---
-permalink: /Text-Classification/
+permalink: /regression/Text-Classification/
 header:
   image: "/images/digital-transition2.jpg"
 ---

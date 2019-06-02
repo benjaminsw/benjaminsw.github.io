@@ -1,5 +1,5 @@
 ---
-permalink: /Multiple-Restarts-Hill-climbing/
+permalink: /search/Multiple-Restarts-Hill-climbing/
 header:
   image: "/images/digital-transition2.jpg"
 ---

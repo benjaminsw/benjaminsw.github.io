@@ -1,5 +1,5 @@
 ---
-permalink: /Iterated-Local-Search/
+permalink: /search/Iterated-Local-Search/
 header:
   image: "/images/digital-transition2.jpg"
 ---
