@@ -164,7 +164,8 @@ It's time to design a simple algorithm to distinguish cat images from non-cat im
 
 I will build a Logistic Regression, using a Neural Network mindset. The following Figure explains why **Logistic Regression is actually a very simple Neural Network!**
 
-<img src="images/LogReg_kiank.png" style="width:650px;height:400px;">
+<img src="/images/Logistic-Regression-with-Neural-Network/LogReg_kiank.png" style="width:650px;height:400px;">
+![png](/images/Logistic-Regression-with-Neural-Network/LogReg_kiank.png)
 
 **Mathematical expression of the algorithm**:
 
