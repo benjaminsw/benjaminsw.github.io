@@ -1,9 +1,14 @@
+<h2 id="top"></h2>
 ---
 permalink: /Time-Series/
 header:
   image: "/images/digital-transition2.jpg"
 ---
-<h2 id="top"></h2>
+
+
+### Time Series
+
+
 ### What makes Time Series Special?
 
 As the name suggests, TS is a collection of data points collected at constant time intervals. These are analyzed to determine the long term trend so as to forecast the future or perform some other form of analysis. But what makes a TS different from say a regular regression problem? There are 2 things:
