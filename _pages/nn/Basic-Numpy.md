@@ -5,7 +5,7 @@ header:
 ---
 <h2 id="top"></h2>
 
-### Python Basics with Numpy
+# Python Basics with Numpy
 
 This notebok will show you a quick introduction to Python and Jupyter Notebook.
 
@@ -21,7 +21,7 @@ This notebok will show you a quick introduction to Python and Jupyter Notebook.
 
 Let's get started!
 
-### About iPython Notebooks ##
+## About iPython Notebooks ##
 
 Jupyter notebooks are interactive coding environments embedded in a webpage. After writing code, the cell can be run by either pressing "SHIFT"+"ENTER" or by clicking on "Run Cell" (denoted by a play symbol) in the upper bar of the notebook.
 
@@ -41,7 +41,7 @@ print ("test: " + test)
     test: Hello World
 
 
-### 1 - Building basic functions with numpy ##
+## 1 - Building basic functions with numpy ##
 
 Numpy is the main package for scientific computing in Python. It is maintained by a large community [www.numpy.org](https://www.numpy.org/). In this notebook, I will illustrate key numpy functions such as np.exp, np.log, and np.reshape. All these numpy functions will more or less be used quite ofter in other notebooks.
 
@@ -54,7 +54,7 @@ In the following cell, I will build a function that returns the sigmoid of a rea
 **Note**:
 $sigmoid(x) = \frac{1}{1+e^{-x}}$ is sometimes also known as the logistic function. It is a non-linear function used not only in Machine Learning (Logistic Regression), but also in Deep Learning.
 
-<img src="/images/Basic-Numpy/Sigmoid.png" style="width:500px;height:228px;">
+<img src="images/Sigmoid.png" style="width:500px;height:228px;">
 
 To refer to a function belonging to a specific package, the function could be called it using package_name.function(). Let's try the code below to see an example with math.exp().
 
@@ -237,18 +237,10 @@ def image2vector(image):
     v -- a vector of shape (length*height*depth, 1)
     """
 
-    v = image.reshape(image.shape[0]*image.shape[1]*image.shape[2],1)a
+    v = image.reshape(image.shape[0]*image.shape[1]*image.shape[2],1)
 
     return v
 ```
-
-
-      File "<ipython-input-11-72ad5b23d437>", line 10
-        v = image.reshape(image.shape[0]*image.shape[1]*image.shape[2],1)a
-                                                                         ^
-    SyntaxError: invalid syntax
-
-
 
 
 ```python
@@ -267,20 +259,6 @@ image = np.array([[[ 0.67826139,  0.29380381],
 
 print ("image2vector(image) = " + str(image2vector(image)))
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-12-42db90d784ff> in <module>()
-         12         [ 0.34144279,  0.94630077]]])
-         13
-    ---> 14 print ("image2vector(image) = " + str(image2vector(image)))
-
-
-    NameError: name 'image2vector' is not defined
-
 
 ### 1.4 - Normalising rows
 
@@ -416,7 +394,7 @@ Yay! We now have a pretty good understanding of python numpy and have implemente
 - numpy has efficient built-in functions
 - broadcasting is extremely useful
 
-### 2) Vectorisation
+## 2) Vectorisation
 
 
 In deep learning, we will deal with very large datasets. Hence, a non-computationally-optimal function can become a huge bottleneck in our algorithm and can result in a model that takes ages to run. To make sure that our code is  computationally efficient, we will use vectorisation. For example, try to tell the difference between the following implementations of the dot/outer/elementwise product.
@@ -493,22 +471,6 @@ dot = np.dot(W,x1)
 toc = time.process_time()
 print ("gdot = " + str(dot) + "\n ----- Computation time = " + str(1000*(toc - tic)) + "ms")
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-13-0d8d8315a1c2> in <module>()
-          3
-          4 ### VECTORIZED DOT PRODUCT OF VECTORS ###
-    ----> 5 tic = time.process_time()
-          6 dot = np.dot(x1,x2)
-          7 toc = time.process_time()
-
-
-    NameError: name 'time' is not defined
-
 
 As you may have noticed, the vectorised implementation is much cleaner and more efficient. For bigger vectors/matrices, the differences in running time become even bigger.
 
