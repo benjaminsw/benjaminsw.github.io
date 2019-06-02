@@ -28,8 +28,8 @@ main:
         url: /Ridge-Regression/
       - title: LASSO
         url: /LASSO/
-      - title:
-        url: //
+      - title: Feature Selection w/ LASSO
+        url: /Feature-Selection-with-LASSO/
 
   - title: "Time Series"
     url: /techstream/
