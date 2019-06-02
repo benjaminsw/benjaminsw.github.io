@@ -34,7 +34,7 @@ plt.rcParams['image.cmap'] = 'gray'
 
 **Problem Statement and Scenario**: I have just been hired as an AI expert by the French Football Corporation. They would like me to recommend positions where France's goal keeper should kick the ball so that the French team's players can then hit it with their head.
 
-<img src="images/field_kiank.png" style="width:600px;height:350px;">
+<img src="/images/Regularisation/Regularisation/field_kiank.png" style="width:600px;height:350px;">
 <caption><center> <u> **Figure 1** </u>: **Football field**<br> The goal keeper kicks the ball in the air, the players of each team are fighting to hit the ball with their head </center></caption>
 
 
@@ -46,7 +46,7 @@ train_X, train_Y, test_X, test_Y = load_2D_dataset()
 ```
 
 
-![png](output_3_0.png)
+![png](/images/Regularisation/output_3_0.png)
 
 
 Each dot corresponds to a position on the football field where a football player has hit the ball with his/her head after the French goal keeper has shot the ball from the left side of the football field.
@@ -160,7 +160,7 @@ predictions_test = predict(test_X, test_Y, parameters)
 
 
 
-![png](output_9_1.png)
+![png](/images/Regularisation/output_9_1.png)
 
 
     On the training set:
@@ -181,7 +181,7 @@ plot_decision_boundary(lambda x: predict_dec(parameters, x.T), train_X, train_Y)
 ```
 
 
-![png](output_11_0.png)
+![png](/images/Regularisation/output_11_0.png)
 
 
 The non-regularised model is obviously overfitting the training set. It is fitting the noisy points! Let's now look at two techniques to reduce overfitting.
@@ -320,7 +320,7 @@ predictions_test = predict(test_X, test_Y, parameters)
 
 
 
-![png](output_20_1.png)
+![png](/images/Regularisation/output_20_1.png)
 
 
     On the train set:
@@ -342,7 +342,7 @@ plot_decision_boundary(lambda x: predict_dec(parameters, x.T), train_X, train_Y)
 ```
 
 
-![png](output_22_0.png)
+![png](/images/Regularisation/output_22_0.png)
 
 
 **Observations**:
@@ -376,14 +376,14 @@ To understand drop-out, consider this conversation with a friend:
 
 
 <center>
-<video width="620" height="440" src="images/dropout1_kiank.mp4" type="video/mp4" controls>
+<video width="620" height="440" src="/images/Regularisation/dropout1_kiank.mp4" type="video/mp4" controls>
 </video>
 </center>
 <br>
 <caption><center> <u> Figure 2 </u>: Drop-out on the second hidden layer. <br> At each iteration, we shut down (= set to zero) each neuron of a layer with probability $1 - keep\_prob$ or keep it with probability $keep\_prob$ (50% here). The dropped neurons don't contribute to the training in both the forward and backward propagations of the iteration. </center></caption>
 
 <center>
-<video width="620" height="440" src="images/dropout2_kiank.mp4" type="video/mp4" controls>
+<video width="620" height="440" src="/images/Regularisation/dropout2_kiank.mp4" type="video/mp4" controls>
 </video>
 </center>
 
@@ -574,7 +574,7 @@ predictions_test = predict(test_X, test_Y, parameters)
 
 
 
-![png](output_31_3.png)
+![png](/images/Regularisation/output_31_3.png)
 
 
     On the train set:
@@ -597,7 +597,7 @@ plot_decision_boundary(lambda x: predict_dec(parameters, x.T), train_X, train_Y)
 ```
 
 
-![png](output_33_0.png)
+![png](/images/Regularisation/output_33_0.png)
 
 
 **Note**:
