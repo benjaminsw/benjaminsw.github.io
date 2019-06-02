@@ -4,6 +4,7 @@ header:
   image: "/images/digital-transition2.jpg"
 ---
 <h2 id="top"></h2>
+
 ### Logistic Regression with a Neural Network
 
 This notebook will build a logistic regression classifier to recognize  cats. This notebook will step through how to do this with a Neural Network.
