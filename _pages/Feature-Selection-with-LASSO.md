@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 ```
 
-### Read data in
+### read data in
 
 Dataset used in this notebook is from house sales in King County, the region where the city of Seattle, WA is located.
 
@@ -528,7 +528,7 @@ In this section, you are going to implement a simple, two phase procedure to ach
 max_nonzeros = 7
 ```
 
-## exploring the larger range of values to find a narrow range with the desired sparsity
+### exploring the larger range of values to find a narrow range with the desired sparsity
 
 Let's define a wide range of possible `l1_penalty_values`:
 
