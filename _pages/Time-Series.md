@@ -4,9 +4,7 @@ permalink: /Time-Series/
 header:
   image: "/images/digital-transition2.jpg"
 ---
-
-
-### Time Series
+# Time Series
 
 
 ### What makes Time Series Special?
