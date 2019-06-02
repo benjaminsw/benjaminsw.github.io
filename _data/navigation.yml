@@ -52,28 +52,15 @@ main:
         url: /nn/Initialisation/
       - title: Regularisation
         url: /nn/Regularisation/
-      - title:
-        url: //
-      - title:
-        url: //
-      - title:
-        url: //
-      - title:
-        url: //
-      - title:
-        url: //
-      - title:
-        url: //
-      - title:
-        url: //
-      - title:
-        url: //
-      - title:
-        url: //
-      - title:
-        url: //
-      - title:
-        url: //
+      #- title: gredient checking
+        #url: //
+
+      #- title:
+        #url: //
+      #- title:
+        #url: //
+
+
 
   - title: "About"
     url: /about/
