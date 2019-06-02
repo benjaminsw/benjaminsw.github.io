@@ -50,8 +50,8 @@ main:
         url: /nn/Deep-Neural-Network-Application/
       - title: Initialisation
         url: /nn/Initialisation/
-      - title:
-        url: //
+      - title: Regularisation
+        url: /nn/Regularisation/
       - title:
         url: //
       - title:
