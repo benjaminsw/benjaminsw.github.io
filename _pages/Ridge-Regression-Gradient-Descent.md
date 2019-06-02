@@ -3,6 +3,7 @@ permalink: /Ridge-Regression-Gradient-Descent/
 header:
   image: "/images/digital-transition2.jpg"
 ---
+<h2 id="top"></h2>
 
 ### Ridge Regression Implementation with Gradient Descent
 
@@ -586,3 +587,5 @@ print abs(predicted_price_house1_regularisation - test_output[0])
 We can see that for particular house1, regression with no regularisation perform better because it resuts in less error.
 
 *last edited: 31/10/2016*
+
+<a href="#top">Go to top</a>

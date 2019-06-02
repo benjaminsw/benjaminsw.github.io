@@ -3,7 +3,7 @@ permalink: /LASSO/
 header:
   image: "/images/digital-transition2.jpg"
 ---
-
+<h2 id="top"></h2>
 
 ### LASSO (coordinate descent)
 
@@ -920,4 +920,6 @@ print("RSS on TEST data with normalised_weights1e8: $%.6f" % (RSS))
 
 We can see that RSS of 1e8 is higher tan 1e6
 
-_ last edited 10/11/2016 _
+*last edited 10/11/2016*
+
+<a href="#top">Go to top</a>

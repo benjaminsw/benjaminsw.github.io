@@ -3,6 +3,7 @@ permalink: /Genetic-Algorithms/
 header:
   image: "/images/digital-transition2.jpg"
 ---
+<h2 id="top"></h2>
 
 ### Genetic Algorithms (GAs)
 
@@ -267,3 +268,5 @@ plt.show
 
 
 ![png](/images/Genetic-Algorithms/output_13_1.png)
+
+<a href="#top">Go to top</a>

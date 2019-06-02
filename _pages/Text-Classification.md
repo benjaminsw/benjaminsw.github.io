@@ -3,7 +3,7 @@ permalink: /Text-Classification/
 header:
   image: "/images/digital-transition2.jpg"
 ---
-
+<h2 id="top"></h2>
 
 ### Multinomial Logit Regression for Twitter Text Classification
 
@@ -247,3 +247,5 @@ head(subset(test, Label=="offensive language",))
 
 
 *last edit 25/10/2016*
+
+<a href="#top">Go to top</a>

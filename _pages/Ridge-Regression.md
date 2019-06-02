@@ -3,6 +3,7 @@ permalink: /Ridge-Regression/
 header:
   image: "/images/digital-transition2.jpg"
 ---
+<h2 id="top"></h2>
 
 ### Ridge Regression
 
@@ -1289,4 +1290,6 @@ plt.title('k-fold cross-validation errors')
 ![png](/images/Ridge-Regression/output_49_1.png)
 
 
-*last edit 29/10/2016*
+*last edited: 29/10/2016*
+
+<a href="#top">Go to top</a>

@@ -3,7 +3,7 @@ permalink: /Polynomial-Regression/
 header:
   image: "/images/digital-transition2.jpg"
 ---
-
+<h2 id="top"></h2>
 
 ### Assessing Fit (Polynomial Regression)
 
@@ -1259,4 +1259,6 @@ mse
 
 
 
-*last edit 27/10/2016*
+*last edited: 27/10/2016*
+
+<a href="#top">Go to top</a>

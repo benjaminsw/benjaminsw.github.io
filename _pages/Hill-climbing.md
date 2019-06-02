@@ -3,6 +3,8 @@ permalink: /Hill-climbing/
 header:
   image: "/images/digital-transition2.jpg"
 ---
+<h2 id="top"></h2>
+
 
 ### Random-Mutation Hill-Climbing (RMHC)
 
@@ -4127,3 +4129,5 @@ while max_eval >0:
 
 
 *last editted: 01/06/19*
+
+<a href="#top">Go to top</a>

@@ -3,7 +3,6 @@ permalink: /Time-Series/
 header:
   image: "/images/digital-transition2.jpg"
 ---
-
 <h2 id="top"></h2>
 
 # Time Series

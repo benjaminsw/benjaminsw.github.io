@@ -3,6 +3,7 @@ permalink: /Introduction-to-Regression-PhillyCrime/
 header:
   image: "/images/digital-transition2.jpg"
 ---
+<h2 id="top"></h2>
 
 ### Introduction to Regression
 
@@ -472,3 +473,5 @@ pd.DataFrame(params_noCCnohighend_dict.items(), columns=['name','value'])
 Above: We see that removing the outlying high-value neighborhoods has *some* effect on the fit, but not nearly as much as our high-leverage Center City datapoint.
 
 *last edit 26/10/2016*
+
+<a href="#top">Go to top</a>

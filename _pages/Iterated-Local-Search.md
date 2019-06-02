@@ -3,6 +3,7 @@ permalink: /Iterated-Local-Search/
 header:
   image: "/images/digital-transition2.jpg"
 ---
+<h2 id="top"></h2>
 
 ### Iterated Local Search
 
@@ -142,4 +143,6 @@ plt.show
 ![png](/images/Iterated-Local-Search/output_5_1.png)
 
 
-*last editted: 01/06/19*
+*last edited: 01/06/19*
+
+<a href="#top">Go to top</a>

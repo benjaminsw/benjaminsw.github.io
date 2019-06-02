@@ -3,6 +3,7 @@ permalink: /Feature-Selection-with-LASSO/
 header:
   image: "/images/digital-transition2.jpg"
 ---
+<h2 id="top"></h2>
 
 ### Feature Selection and LASSO
 
@@ -734,3 +735,6 @@ pd.DataFrame(np.append(model_with_best_rss2.intercept_, model_with_best_rss2.coe
 
 
 *last edited: 05/11/2016*
+
+
+<a href="#top">Go to top</a>

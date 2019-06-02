@@ -3,6 +3,7 @@ permalink: /Simple-Linear-Regression/
 header:
   image: "/images/digital-transition2.jpg"
 ---
+<h2 id="top"></h2>
 
 ### Simple Linear Regression
 
@@ -869,4 +870,6 @@ print 'The RSS of predicting Prices based on Bedrooms is : ' + str(rss_prices_on
     The RSS of predicting Prices based on Bedrooms is : 2.11218065967e+15
 
 
-*last edit:23/10/16 *
+*last edited:23/10/16 *
+
+<a href="#top">Go to top</a>

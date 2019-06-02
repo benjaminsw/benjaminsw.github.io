@@ -3,6 +3,7 @@ permalink: /Multivariate-Regression/
 header:
   image: "/images/digital-transition2.jpg"
 ---
+<h2 id="top"></h2>
 
 ### Multiple Regression (Gradient Descent)
 
@@ -733,4 +734,6 @@ compute_rss(test_output, predictions)
 
 
 
-*last edit 25/10/2016*
+*last edited: 25/10/2016*
+
+<a href="#top">Go to top</a>
