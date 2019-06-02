@@ -156,6 +156,7 @@ print("b2 = " + str(parameters["b2"]))
 The initialisation for a deeper L-layer neural network is more complicated because there are many more weight matrices and bias vectors. When completing the `initialise_parameters_deep`, we should make sure that our dimensions match between each layer. Recall that $n^{[l]}$ is the number of units in layer $l$. Thus for example if the size of our input $X$ is $(12288, 209)$ (with $m=209$ examples) then:
 
 <table style="width:100%">
+
     <tr>
         <td>  </td>
         <td> **Shape of W** </td>
