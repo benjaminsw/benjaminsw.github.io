@@ -42,8 +42,8 @@ main:
         url: /nn/Basic-Numpy/
       - title: Logistic Regression with Neural Network
         url: /nn/Logistic-Regression-with-Neural-Network/
-      - title:
-        url: //
+      - title: One Layer NN
+        url: /nn/Planar-Data-Classification-with-One-Hidden-Layer-NN/
       - title:
         url: //
       - title:
