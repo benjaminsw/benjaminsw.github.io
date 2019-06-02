@@ -780,7 +780,8 @@ Finally, we can try different things on this Notebook. Things we can play with i
     - Test other preprocessings (center the data, or divide each row by its standard deviation)
 
 Bibliography:
-- http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/
-- https://stats.stackexchange.com/questions/211436/why-do-we-normalize-images-by-subtracting-the-datasets-image-mean-and-not-the-c
+- <a href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/">http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/</a>
+- <a href="https://stats.stackexchange.com/questions/211436/why-do-we-normalize-images-by-subtracting-the-datasets-image-mean-and-not-the-c">https://stats.stackexchange.com/questions/211436/why-do-we-normalize-images-by-subtracting-the-datasets-image-mean-and-not-the-c</a>
+
 
 <a href="#top">Go to top</a>
