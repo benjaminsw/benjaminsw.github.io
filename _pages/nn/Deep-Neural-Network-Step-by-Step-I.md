@@ -78,7 +78,7 @@ To build our neural network, I will be implementing several "helper functions". 
     - Stack [LINEAR->RELU] backward L-1 times and add [LINEAR->SIGMOID] backward in a new L_model_backward function
 - Finally update the parameters.
 
-<img src="/images/Deep-Neural-Network-Step-by-Step-I/final outline.png" style="width:800px;height:500px;">
+<img src="/images/Deep-Neural-Network-Step-by-Step-I/final+outline.png" style="width:800px;height:500px;">
 <caption><center> **Figure 1**</center></caption><br>
 
 
