@@ -578,31 +578,6 @@ d = model(train_set_x, train_set_y, test_set_x, test_set_y, num_iterations = 200
     test accuracy: 70.0 %
 
 
-**Expected Output**:
-
-<table style="width:40%">
-
-    <tr>
-        <td> **Cost after iteration 0 **  </td>
-        <td> 0.693147 </td>
-    </tr>
-      <tr>
-        <td> <center> $\vdots$ </center> </td>
-        <td> <center> $\vdots$ </center> </td>
-    </tr>  
-    <tr>
-        <td> **Train Accuracy**  </td>
-        <td> 99.04306220095694 % </td>
-    </tr>
-
-    <tr>
-        <td>**Test Accuracy** </td>
-        <td> 70.0 % </td>
-    </tr>
-</table>
-
-
-
 
 **Comment**: Training accuracy is close to 100%. This is a good sanity check: our model is working and has high enough capacity to fit the training data. Test error is 68%. It is actually not bad for this simple model, given the small dataset we used and that logistic regression is a linear classifier. But no worries, later on we will build an even better classifier!
 
