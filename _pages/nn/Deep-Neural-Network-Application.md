@@ -554,9 +554,8 @@ plt.imshow(image)
 print ("y = " + str(np.squeeze(my_predicted_image)) + ", your L-layer model predicts a \"" + classes[int(np.squeeze(my_predicted_image)),].decode("utf-8") +  "\" picture.")
 ```
 
-**References**:
-
-- for auto-reloading external module: http://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython
+**References:**
+- for auto-reloading external module: <a href="http://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython">http://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython</a>
 
 *last edited: 31/05/19*
 
