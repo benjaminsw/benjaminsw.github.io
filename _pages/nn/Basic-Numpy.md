@@ -5,7 +5,7 @@ header:
 ---
 <h2 id="top"></h2>
 
-# Python Basics with Numpy
+### Python Basics with Numpy
 
 This notebok will show you a quick introduction to Python and Jupyter Notebook.
 
@@ -21,7 +21,7 @@ This notebok will show you a quick introduction to Python and Jupyter Notebook.
 
 Let's get started!
 
-## About iPython Notebooks ##
+### About iPython Notebooks ##
 
 Jupyter notebooks are interactive coding environments embedded in a webpage. After writing code, the cell can be run by either pressing "SHIFT"+"ENTER" or by clicking on "Run Cell" (denoted by a play symbol) in the upper bar of the notebook.
 
@@ -41,7 +41,7 @@ print ("test: " + test)
     test: Hello World
 
 
-## 1 - Building basic functions with numpy ##
+### 1 - Building basic functions with numpy ##
 
 Numpy is the main package for scientific computing in Python. It is maintained by a large community [www.numpy.org](https://www.numpy.org/). In this notebook, I will illustrate key numpy functions such as np.exp, np.log, and np.reshape. All these numpy functions will more or less be used quite ofter in other notebooks.
 
@@ -54,7 +54,7 @@ In the following cell, I will build a function that returns the sigmoid of a rea
 **Note**:
 $sigmoid(x) = \frac{1}{1+e^{-x}}$ is sometimes also known as the logistic function. It is a non-linear function used not only in Machine Learning (Logistic Regression), but also in Deep Learning.
 
-<img src="images/Sigmoid.png" style="width:500px;height:228px;">
+<img src="/images/Basic-Numpy/Sigmoid.png" style="width:500px;height:228px;">
 
 To refer to a function belonging to a specific package, the function could be called it using package_name.function(). Let's try the code below to see an example with math.exp().
 
@@ -394,7 +394,7 @@ Yay! We now have a pretty good understanding of python numpy and have implemente
 - numpy has efficient built-in functions
 - broadcasting is extremely useful
 
-## 2) Vectorisation
+### 2) Vectorisation
 
 
 In deep learning, we will deal with very large datasets. Hence, a non-computationally-optimal function can become a huge bottleneck in our algorithm and can result in a model that takes ages to run. To make sure that our code is  computationally efficient, we will use vectorisation. For example, try to tell the difference between the following implementations of the dot/outer/elementwise product.
