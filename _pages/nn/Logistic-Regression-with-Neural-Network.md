@@ -72,7 +72,7 @@ print ("y = " + str(train_set_y[:, index]) + ", it's a '" + classes[np.squeeze(t
 
 
 
-![png](output_6_1.png)
+![png](/images/Logistic-Regression-with-Neural-Network/output_6_1.png)
 
 
 Many software bugs in deep learning come from having matrix/vector dimensions that don't fit. If we can keep our matrix/vector dimensions straight, we will go a long way toward eliminating many bugs.
@@ -622,7 +622,7 @@ print ("y = " + str(test_set_y[0,index]) + ", you predicted that it is a \"" + c
 
 
 
-![png](output_38_1.png)
+![png](/images/Logistic-Regression-with-Neural-Network/output_38_1.png)
 
 
 Let's also plot the cost function and the gradients.
@@ -639,7 +639,7 @@ plt.show()
 ```
 
 
-![png](output_40_0.png)
+![png](/images/Logistic-Regression-with-Neural-Network/output_40_0.png)
 
 
 **Interpretation**:
@@ -736,7 +736,7 @@ plt.show()
 
 
 
-![png](output_44_1.png)
+![png](/images/Logistic-Regression-with-Neural-Network/output_44_1.png)
 
 
 **Interpretation**:
