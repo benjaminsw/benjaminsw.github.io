@@ -38,12 +38,42 @@ main:
 
   - title: "Deep Learning"
     sublinks:
-      - title: By Tag
-        url: /tags/
-      - title: By Category
-        url: /categories/
-      - title: By Year
-        url: /year-archive/
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
+      - title:
+        url: //
 
   - title: "About"
     url: /about/
