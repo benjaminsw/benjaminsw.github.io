@@ -5,7 +5,7 @@ header:
 ---
 <h2 id="top"></h2>
 
-# Deep Neural Network for Image Classification: Application II
+### Deep Neural Network for Image Classification: Application
 
 
 I will use the functions I've implemented in the previous assignment to build a deep network, and apply it to cat vs non-cat classification. Hopefully, we will see an improvement in accuracy relative to our previous logistic regression implementation.  
@@ -15,7 +15,7 @@ I will use the functions I've implemented in the previous assignment to build a 
 
 Let's get started!
 
-## 1 - Packages
+### 1 - Packages
 
 Let's first import all the packages that I need during this assignment.
 - [numpy](https://www.numpy.org/) is the fundamental package for scientific computing with Python.
@@ -47,7 +47,7 @@ plt.rcParams['image.cmap'] = 'gray'
 np.random.seed(1)
 ```
 
-## 2 - Dataset
+### 2 - Dataset
 
 I will use the same "Cat vs non-Cat" dataset as in "Logistic Regression as a Neural Network" (Assignment 2). The model I had built had 70% test accuracy on classifying cats vs non-cats images. Hopefully, my new model will perform a better!
 
@@ -132,7 +132,7 @@ print ("test_x's shape: " + str(test_x.shape))
 
 $12,288$ equals $64 \times 64 \times 3$ which is the size of one reshaped image vector.
 
-## 3 - Architecture of our model
+### 3 - Architecture of our model
 
 Now that we are familiar with the dataset, it is time to build a deep neural network to distinguish cat images from non-cat images.
 
@@ -345,16 +345,6 @@ predictions_train = predict(train_x, train_y, parameters)
 
     Accuracy: 1.0
 
-
-**Expected Output**:
-<table>
-    <tr>
-        <td> **Accuracy**</td>
-        <td> 1.0 </td>
-    </tr>
-</table>
-
-
 ```python
 predictions_test = predict(test_x, test_y, parameters)
 ```
@@ -362,20 +352,11 @@ predictions_test = predict(test_x, test_y, parameters)
     Accuracy: 0.72
 
 
-**Expected Output**:
-
-<table>
-    <tr>
-        <td> **Accuracy**</td>
-        <td> 0.72 </td>
-    </tr>
-</table>
-
 **Note**: Notice that running the model on fewer iterations (say 1500) gives better accuracy on the test set. This is called "early stopping" and I will talk about it later. Early stopping is a way to prevent overfitting.
 
 Yay! It seems that our 2-layer neural network has better performance (72%) than the logistic regression implementation (70%, assignment week 2). Let's see if we can do even better with an $L$-layer model.
 
-## 5 - L-layer Neural Network
+### 5 - L-layer Neural Network
 
 Now let's use the helper functions I have implemented previously to build an $L$-layer neural network with the following structure: *[LINEAR -> RELU]$\times$(L-1) -> LINEAR -> SIGMOID*. The functions I need and their inputs are:
 ```python
@@ -524,22 +505,13 @@ pred_test = predict(test_x, test_y, parameters)
     Accuracy: 0.8
 
 
-**Expected Output**:
-
-<table>
-    <tr>
-        <td> **Test Accuracy**</td>
-        <td> 0.8 </td>
-    </tr>
-</table>
-
 Yay! It seems that our 4-layer neural network has better performance (80%) than your 2-layer neural network (72%) on the same test set.
 
 This is good performance for this task. Nice job!
 
 Though in the next few notebook on "Improving deep neural networks" I will show how to obtain even higher accuracy by systematically searching for better hyperparameters (learning_rate, layers_dims, num_iterations, and others you'll also learn in the next course).
 
-##  6) Results Analysis
+###  6) Results Analysis
 
 First, let's take a look at some images the L-layer model labeled incorrectly. This will show a few mislabeled images.
 
@@ -560,7 +532,7 @@ print_mislabeled_images(classes, test_x, test_y, pred_test)
 - Brightness of the picture
 - Scale variation (cat is very large or small in image)
 
-## 7) Test with new image  ##
+### 7) Test with new image  ##
 
 We can use our own image and see the output of our model. To do that:
 1. Add your image to this Jupyter Notebook's directory, in the "images" folder
@@ -586,4 +558,7 @@ print ("y = " + str(np.squeeze(my_predicted_image)) + ", your L-layer model pred
 
 - for auto-reloading external module: http://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython
 
-*last editted: 31/05/19*
+*last edited: 31/05/19*
+
+
+<a href="#top">Go to top</a>
