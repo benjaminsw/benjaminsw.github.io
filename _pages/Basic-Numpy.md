@@ -54,7 +54,7 @@ In the following cell, I will build a function that returns the sigmoid of a rea
 **Note**:
 $sigmoid(x) = \frac{1}{1+e^{-x}}$ is sometimes also known as the logistic function. It is a non-linear function used not only in Machine Learning (Logistic Regression), but also in Deep Learning.
 
-<img src="images/Sigmoid.png" style="width:500px;height:228px;">
+<img src="/images/Basic-Numpy/Sigmoid.png" style="width:500px;height:228px;">
 
 To refer to a function belonging to a specific package, the function could be called it using package_name.function(). Let's try the code below to see an example with math.exp().
 
