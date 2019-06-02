@@ -38,8 +38,8 @@ main:
 
   - title: "Deep Learning"
     sublinks:
-      - title:
-        url: //
+      - title: Basic Numpy
+        url: /Basic-Numpy/
       - title:
         url: //
       - title:
