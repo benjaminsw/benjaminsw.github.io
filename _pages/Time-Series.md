@@ -3,7 +3,7 @@ permalink: /Time-Series/
 header:
   image: "/images/digital-transition2.jpg"
 ---
-
+<h2 id="top"></h2>
 ### What makes Time Series Special?
 
 As the name suggests, TS is a collection of data points collected at constant time intervals. These are analyzed to determine the long term trend so as to forecast the future or perform some other form of analysis. But what makes a TS different from say a regular regression problem? There are 2 things:
@@ -770,3 +770,5 @@ plt.title('RMSE: %.4f'% np.sqrt(sum((predictions_ARIMA-ts)**2)/len(ts)))
 
 
 ![png](/images/Time-Series/output_77_1.png)
+
+<a href="#top">Go to top</a>
