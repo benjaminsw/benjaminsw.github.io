@@ -33,8 +33,6 @@ main:
       - title: Text Classification
         url: /regression/Text-Classification/
 
-  - title: "Time Series"
-    url: /timeseries/Time-Series/
 
   - title: "Deep Learning"
     sublinks:
@@ -54,12 +52,13 @@ main:
         url: /nn/Regularisation/
       #- title: gredient checking
         #url: //
-
       #- title:
         #url: //
       #- title:
         #url: //
 
+      - title: "Time Series"
+        url: /timeseries/Time-Series/
 
 
   #- title: "About"
