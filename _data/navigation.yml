@@ -57,8 +57,8 @@ main:
       #- title:
         #url: //
 
-      - title: "Time Series"
-        url: /timeseries/Time-Series/
+  - title: "Time Series"
+    url: /timeseries/Time-Series/
 
 
   #- title: "About"
