@@ -28,7 +28,7 @@ Let's have a look at our first image called 'test_images/solidWhiteRight.jpg'. T
 
 
 <figure>
- <img src="examples/line-segments-example.jpg" width="380" alt="Combined Image" />
+ <img src="/images/Finding-Lane-Lines/examples/line-segments-example.jpg" width="380" alt="Combined Image" />
  <figcaption>
  <p></p>
  <p style="text-align: center;"> Our output should look something like this (above) after detecting line segments using the helper functions below </p>
@@ -36,7 +36,7 @@ Let's have a look at our first image called 'test_images/solidWhiteRight.jpg'. T
 </figure>
  <p></p>
 <figure>
- <img src="examples/laneLines_thirdPass.jpg" width="380" alt="Combined Image" />
+ <img src="/images/Finding-Lane-Lines/examples/laneLines_thirdPass.jpg" width="380" alt="Combined Image" />
  <figcaption>
  <p></p>
  <p style="text-align: center;"> Our goal is to connect/average/extrapolate line segments to get output like this</p>
@@ -60,7 +60,7 @@ import cv2
 
 ```python
 #reading in an image
-image = mpimg.imread('test_images/solidWhiteRight.jpg')
+image = mpimg.imread('/images/Finding-Lane-Lines/test_images/solidWhiteRight.jpg')
 
 #printing out some stats and plotting
 print('This image is:', type(image), 'with dimensions:', image.shape)
