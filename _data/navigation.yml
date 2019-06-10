@@ -61,7 +61,7 @@ main:
     url: /timeseries/Time-Series/
 
   - title: "Self-Driving Car Engineer"
-    url: /timeseries/Time-Series/ #/car/Finding-Lane-Lines/
+    url: /car/Finding-Lane-Lines/
 
 
   #- title: "About"

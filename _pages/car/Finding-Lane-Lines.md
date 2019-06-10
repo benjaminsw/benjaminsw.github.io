@@ -1,5 +1,11 @@
+---
+permalink: /car/Finding-Lane-Lines/
+header:
+  image: "/images/digital-transition2.jpg"
+---
+<h2 id="top"></h2>
 
-## Self-Driving Car Engineer
+# Self-Driving Car Engineer
 
 
 ### **Finding Lane Lines on the Road**
