@@ -60,6 +60,9 @@ main:
   - title: "Time Series"
     url: /timeseries/Time-Series/
 
+  - title: "Self-Driving Car Engineer"
+    url: /car/Time-Series/
+
 
   #- title: "About"
     #url: /about/
