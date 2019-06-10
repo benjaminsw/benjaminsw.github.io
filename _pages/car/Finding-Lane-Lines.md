@@ -362,7 +362,7 @@ Let's try the one with the solid white lane on the right first ...
 
 
 ```python
-white_output = 'test_videos_output/solidWhiteRight.mp4'
+white_output = '/images/Finding-Lane-Lines/test_videos_output/solidWhiteRight.mp4'
 ## To speed up the testing process you may want to try your pipeline on a shorter subclip of the video
 ## To do so add .subclip(start_second,end_second) to the end of the line below
 ## Where start_second and end_second are integer values representing the start and end of the subclip
@@ -403,7 +403,7 @@ HTML("""
 
 
 <video width="960" height="540" controls>
-  <source src="test_videos_output/solidWhiteRight.mp4">
+  <source src="/images/Finding-Lane-Lines/test_videos_output/solidWhiteRight.mp4">
 </video>
 
 
