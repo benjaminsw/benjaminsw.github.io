@@ -30,8 +30,8 @@ main:
         url: /regression/LASSO/
       - title: Feature Selection w/ LASSO
         url: /regression/Feature-Selection-with-LASSO/
-      - title: Text Classification
-        url: /regression/Text-Classification/
+      #- title: Text Classification
+        #url: /regression/Text-Classification/
 
 
   - title: "Deep Learning"
