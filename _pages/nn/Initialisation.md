@@ -10,7 +10,8 @@ header:
 Training neural network requires specifying an initial value of the weights. A well chosen initialization method will help learning to converge faster.  
 
 Previously we didn't talk how the weight initialization works but it has worked out so far. Now let's bring this to the table how do we choose the initialisation for a new neural network.
-#### In this notebook: 
+
+In this notebook: 
 - We will see how different initialisations lead to different results.
 
 A well chosen initialisation can:
