@@ -50,7 +50,7 @@ main:
         url: /nn/Initialisation/
       - title: Regularisation
         url: /nn/Regularisation/
-      - title: gredient checking
+      - title: Gredient Checking
         url: /nn/Gradient-Checking/
       #- title:
         #url: //

@@ -24,7 +24,7 @@ from testCases import *
 from gc_utils import sigmoid, relu, dictionary_to_vector, vector_to_dictionary, gradients_to_vector
 ```
 
-## 1) How does gradient checking work?
+### 1) How does gradient checking work?
 
 Backpropagation computes the gradients $\frac{\partial J}{\partial \theta}$, where $\theta$ denotes the parameters of the model. $J$ is computed using forward propagation and our loss function.
 
@@ -42,7 +42,7 @@ We know the following:
 
 Lets use equation (1) and a small value for $\varepsilon$ to convince our CEO that our code for computing  $\frac{\partial J}{\partial \theta}$ is correct!
 
-## 2) 1-dimensional gradient checking
+### 2) 1-dimensional gradient checking
 
 Consider a 1D linear function $J(\theta) = \theta x$. The model contains only a single real-valued parameter $\theta$, and takes $x$ as input.
 
@@ -185,7 +185,7 @@ Yay!, the difference is smaller than the $10^{-7}$ threshold. So we can have hig
 
 Now, in the more general case, our cost function $J$ has more than a single 1D input. When we are training a neural network, $\theta$ actually consists of multiple matrices $W^{[l]}$ and biases $b^{[l]}$! It is important to know how to do a gradient check with higher-dimensional inputs. Let's do it!
 
-## 3) N-dimensional gradient checking
+### 3) N-dimensional gradient checking
 
 The following figure describes the forward and backward propagation of our fraud detection model.
 
@@ -295,7 +295,7 @@ However, $\theta$ is not a scalar anymore. It is a dictionary called "parameters
 The inverse function is "`vector_to_dictionary`" which outputs back the "parameters" dictionary.
 
 <img src="/images/Gradient-Checking/dictionary_to_vector.png" style="width:600px;height:400px;">
-<caption><center> <u> **Figure 2** </u>: **dictionary_to_vector() and vector_to_dictionary()**<br> You will need these functions in gradient_check_n()</center></caption>
+<caption><center> <u> <b>Figure 2</b> **Figure 2** </u>: **dictionary_to_vector() and vector_to_dictionary()**<br> You will need these functions in gradient_check_n()</center></caption>
 
 The "gradients" dictionary was also converted into a vector "grad" using gradients_to_vector(). We don't need to worry about that.
 
@@ -400,4 +400,6 @@ Congrats, you can be confident that your deep learning model for fraud detection
 - Gradient checking verifies closeness between the gradients from backpropagation and the numerical approximation of the gradient (computed using forward propagation).
 - Gradient checking is slow, so we don't run it in every iteration of training. You would usually run it only to make sure your code is correct, then turn it off and use backprop for the actual learning process.
 
-*last editted: 31/05/19*
+*last edited: 31/05/19*
+
+<a href="#top">Go to top</a>
