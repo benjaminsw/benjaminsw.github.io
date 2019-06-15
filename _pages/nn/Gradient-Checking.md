@@ -295,7 +295,7 @@ However, $\theta$ is not a scalar anymore. It is a dictionary called "parameters
 The inverse function is "`vector_to_dictionary`" which outputs back the "parameters" dictionary.
 
 <img src="/images/Gradient-Checking/dictionary_to_vector.png" style="width:600px;height:400px;">
-<caption><center> <b> <u> Figure 2 </u> </b> <u> **Figure 2** </u>: **dictionary_to_vector() and vector_to_dictionary()**<br> You will need these functions in gradient_check_n()</center></caption>
+<caption><center> <b> Figure 2 </b> <u> **Figure 2** </u>: **dictionary_to_vector() and vector_to_dictionary()**<br> You will need these functions in gradient_check_n()</center></caption>
 
 The "gradients" dictionary was also converted into a vector "grad" using gradients_to_vector(). We don't need to worry about that.
 
