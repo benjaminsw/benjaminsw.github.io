@@ -5,9 +5,9 @@ header:
 ---
 <h2 id="top"></h2>
 
-### Gradient-Checking
+### Gradient Checking
 
-**In this Notebook:**
+In this Notebook:
 - I will implement and use gradient checking.
 
 We are part of a team working to make mobile payments available globally, and are asked to build a deep learning model to detect fraud--whenever someone makes a payment, you want to see if the payment might be fraudulent, such as if the user's account has been taken over by a hacker.
