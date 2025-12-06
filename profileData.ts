@@ -22,7 +22,7 @@ export const profileData: ProfileData = {
   },
   "institution": {
     "name": "Cardiff University",
-    "department": "Department of Computer Science",
+    "department": "School of Computer Science and Informatics",
     "location": "Cardiff, Wales",
     "website": "https://mit.edu"
   },
@@ -43,5 +43,5 @@ export const profileData: ProfileData = {
   },
   "thesisTitle": "Beyond Bayesian Machine Learning: Self-Learning Networks From Imaging Uncertainties",
   "expectedGraduation": "Dec 2026",
-  "bio": "I am exploring how generative models can augment rather than replace human creativity. My work focuses on designing interaction paradigms that allow users to steer AI outputs with semantic precision."
+  "I develop probabilistic machine learning methods that make inference more stable, interpretable, and geometry aware. My work on Adaptive Mixture Flow Variational Inference introduces a two-stage framework that combines heterogeneous normalizing flows with a Simplex EMA weighting scheme for robust multimodal posterior approximation. I extend these ideas to imaging through the Conditional Sequential Mixture of Flows, which adds data-dependent gating, measurement-consistency layers, and hybrid training objectives for tasks like super-resolution and SAR despeckling. My latest direction, BO-CSMF, jointly infers both images and acquisition parameters, enabling physics-adaptive inference under operator uncertainty."
 };
