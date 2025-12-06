@@ -34,29 +34,29 @@ const App: React.FC = () => {
         {/* Social / Contact Links */}
         <div className="flex items-center gap-4 mt-6">
             {PROFILE.socials.scholar && (
-              <a href={PROFILE.socials.scholar} className="p-2 text-slate-400 hover:text-academic-600 transition-colors" aria-label="Google Scholar">
+              <div className="p-2 text-slate-400 cursor-default" aria-label="Google Scholar">
                 <BookIcon className="w-6 h-6" />
-              </a>
+              </div>
             )}
             {PROFILE.socials.github && (
-              <a href={PROFILE.socials.github} className="p-2 text-slate-400 hover:text-slate-900 transition-colors" aria-label="GitHub">
+              <div className="p-2 text-slate-400 cursor-default" aria-label="GitHub">
                 <GithubIcon className="w-6 h-6" />
-              </a>
+              </div>
             )}
              {PROFILE.socials.twitter && (
-              <a href={PROFILE.socials.twitter} className="p-2 text-slate-400 hover:text-blue-400 transition-colors" aria-label="Twitter">
+              <div className="p-2 text-slate-400 cursor-default" aria-label="Twitter">
                 <TwitterIcon className="w-6 h-6" />
-              </a>
+              </div>
             )}
             {PROFILE.socials.linkedin && (
-              <a href={PROFILE.socials.linkedin} className="p-2 text-slate-400 hover:text-blue-700 transition-colors" aria-label="LinkedIn">
+              <div className="p-2 text-slate-400 cursor-default" aria-label="LinkedIn">
                 <LinkedinIcon className="w-6 h-6" />
-              </a>
+              </div>
             )}
             {PROFILE.website && (
-              <a href={`https://${PROFILE.website}`} className="p-2 text-slate-400 hover:text-academic-600 transition-colors" aria-label="Personal Website">
+              <div className="p-2 text-slate-400 cursor-default" aria-label="Personal Website">
                  <LinkIcon className="w-6 h-6" />
-              </a>
+              </div>
             )}
         </div>
       </div>
