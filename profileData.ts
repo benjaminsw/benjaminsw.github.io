@@ -8,12 +8,12 @@ import { ProfileData } from './types';
 // =====================================================================
 
 export const profileData: ProfileData = {
-  "name": "Dr. Elena Vance",
+  "name": "Benjamin Wiriyapong",
   //"photoUrl": "https://picsum.photos/400/400",
   "photoUrl": "https://picsum.photos/400/400",
   "currentRole": "PhD Student",
-  "email": "elena.vance@university.edu",
-  "website": "www.elenavanceresearch.com",
+  "email": "benjaminsw@live.com",
+  "website": "www.bensw.xyz",
   "socials": {
     "linkedin": "https://linkedin.com",
     "github": "https://github.com",
@@ -21,26 +21,27 @@ export const profileData: ProfileData = {
     "twitter": "https://twitter.com"
   },
   "institution": {
-    "name": "Institute of Advanced Technology",
-    "department": "Department of Computer Science & AI",
-    "location": "Cambridge, MA",
+    "name": "Cardiff University",
+    "department": "School of Computer Science and Informatics",
+    "location": "Cardiff, Wales",
     "website": "https://mit.edu"
   },
   "advisor": {
-    "name": "Prof. Alan Turing II",
-    "title": "Distinguished Professor of Computing",
+    "name": "Dr Oktay Karakus",
+    "title": "Assistant Professor",
     "profileUrl": "#"
   },
   "researchFocus": {
-    "area": "Human-AI Collaboration",
+    "area": "Variational Inference",
     "keywords": [
-      "Generative Models",
-      "HCI",
-      "Cognitive Science",
-      "Explainable AI"
+      "Bayesian Inference",
+      "Variational Inference",
+      "Mixture Model",
+      "Normalising Flows",
+      "Inverse Problem"
     ]
   },
-  "thesisTitle": "Bridging the Gap: Intuitive Interfaces for Large Language Models in Creative Workflows",
-  "expectedGraduation": "Spring 2026",
-  "bio": "I am exploring how generative models can augment rather than replace human creativity. My work focuses on designing interaction paradigms that allow users to steer AI outputs with semantic precision."
+  "thesisTitle": "Beyond Bayesian Machine Learning: Self-Learning Networks From Imaging Uncertainties",
+  "expectedGraduation": "Dec 2026",
+  "bio": "I develop probabilistic machine learning methods that make inference more stable, interpretable, and geometry aware. My work on Adaptive Mixture Flow Variational Inference introduces a two-stage framework that combines heterogeneous normalizing flows with a Simplex EMA weighting scheme for robust multimodal posterior approximation. I extend these ideas to imaging through the Conditional Sequential Mixture of Flows, which adds data-dependent gating, measurement-consistency layers, and hybrid training objectives for tasks like super-resolution and SAR despeckling. My latest direction, BO-CSMF, jointly infers both images and acquisition parameters, enabling physics-adaptive inference under operator uncertainty."
 };
