@@ -8,12 +8,12 @@ import { ProfileData } from './types';
 // =====================================================================
 
 export const profileData: ProfileData = {
-  "name": "Dr. Elena Vance",
+  "name": "Benjamin Wiriyapong",
   //"photoUrl": "https://picsum.photos/400/400",
   "photoUrl": "https://picsum.photos/400/400",
   "currentRole": "PhD Student",
-  "email": "elena.vance@university.edu",
-  "website": "www.elenavanceresearch.com",
+  "email": "benjaminsw@live.com",
+  "website": "www.bensw.xyz",
   "socials": {
     "linkedin": "https://linkedin.com",
     "github": "https://github.com",
@@ -21,9 +21,9 @@ export const profileData: ProfileData = {
     "twitter": "https://twitter.com"
   },
   "institution": {
-    "name": "Institute of Advanced Technology",
-    "department": "Department of Computer Science & AI",
-    "location": "Cambridge, MA",
+    "name": "Cardiff University",
+    "department": "Department of Computer Science",
+    "location": "Cardiff, Wales",
     "website": "https://mit.edu"
   },
   "advisor": {
