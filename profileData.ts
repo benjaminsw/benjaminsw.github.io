@@ -27,20 +27,21 @@ export const profileData: ProfileData = {
     "website": "https://mit.edu"
   },
   "advisor": {
-    "name": "Prof. Alan Turing II",
-    "title": "Distinguished Professor of Computing",
+    "name": "Dr Oktay Karakus",
+    "title": "Assistant Professor",
     "profileUrl": "#"
   },
   "researchFocus": {
-    "area": "Human-AI Collaboration",
+    "area": "Variational Inference",
     "keywords": [
-      "Generative Models",
-      "HCI",
-      "Cognitive Science",
-      "Explainable AI"
+      "Bayesian Inference",
+      "Variational Inference",
+      "Mixture Model",
+      "Normalising Flows",
+      "Inverse Problem"
     ]
   },
-  "thesisTitle": "Bridging the Gap: Intuitive Interfaces for Large Language Models in Creative Workflows",
-  "expectedGraduation": "Spring 2026",
+  "thesisTitle": "Beyond Bayesian Machine Learning: Self-Learning Networks From Imaging Uncertainties",
+  "expectedGraduation": "Dec 2026",
   "bio": "I am exploring how generative models can augment rather than replace human creativity. My work focuses on designing interaction paradigms that allow users to steer AI outputs with semantic precision."
 };
