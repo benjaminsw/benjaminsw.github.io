@@ -35,7 +35,7 @@ export const profileData: ProfileData = {
     "area": "Variational Inference",
     "keywords": [
       "Bayesian Inference",
-      "Uncertainty Quantification"
+      "Uncertainty Quantification",
       "Variational Inference",
       "Mixture Model",
       "Normalising Flows",
